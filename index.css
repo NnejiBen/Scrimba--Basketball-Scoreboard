@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-container {
+    background-color: #1c244c;
+    width: 40%;
+    margin: 16px auto;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+#main-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    color: #EEEEEE;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.score {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    background-color: #080001;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 0 16px;
+}
+
+.btn-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.increment-btns {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1c244c;
+    height: 45px;
+    width: 45px;
+    font-size: 18px;
+    color: #9AABD8;
+}
+
+#new-game-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+#new-game-btn {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background-color: #1c244c;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #9AABD8;
+    padding: 4px 16px;
+}
