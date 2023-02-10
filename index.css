@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@font-face {
+    font-family: DigitalDisplay;
+    src: url(digital-display-tfb.ttf);
+}
 
 * {
     margin: 0;
@@ -29,9 +32,11 @@
 }
 
 .score {
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'DigitalDisplay', 'Roboto', sans-serif;
     font-size: 90px;
     color: #F94F6D;
+    letter-spacing: 6px;
     text-align: center;
     background-color: #080001;
     border-radius: 5px;
@@ -52,7 +57,9 @@
     background-color: #1c244c;
     height: 45px;
     width: 45px;
+    font-family: 'DigitalDisplay', 'Roboto', sans-serif;
     font-size: 18px;
+    letter-spacing: 4px;
     color: #9AABD8;
 }
 
@@ -67,7 +74,8 @@
     border-radius: 5px;
     background-color: #1c244c;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     color: #9AABD8;
     padding: 4px 16px;
 }
