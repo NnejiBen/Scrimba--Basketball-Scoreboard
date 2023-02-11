@@ -61,6 +61,12 @@
     font-size: 18px;
     letter-spacing: 4px;
     color: #9AABD8;
+    cursor: pointer;
+}
+
+.increment-btns:hover {
+    border: 2px solid #F94F6D;
+    color: #F94F6D;
 }
 
 #new-game-btn-container {
@@ -78,4 +84,35 @@
     font-size: 16px;
     color: #9AABD8;
     padding: 4px 16px;
+    cursor: pointer;
+}
+
+#new-game-btn:hover {
+    border: 2px solid #F94F6D;
+    color: #F94F6D;
+}
+
+/*RESPONSIVE MODE*/
+
+@media screen and (max-width: 480px) {
+    #page-container {
+        width: 90%;
+        margin: 16px auto;
+        padding: 40px 16px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+    
+    .score {
+        font-size: 70px;
+        padding: 0 8px;
+    }
+
+    .increment-btns {
+        height: 32px;
+        width: 32px;
+    }
+
 }
